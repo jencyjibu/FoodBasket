@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_adddishes_label_dishname" />
+
+    <EditText
+        android:id="@+id/txt_AddDish_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_adddishes_label_description" />
+
+    <EditText
+        android:id="@+id/txt_AddDish_Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_adddishes_label_quantity" />
+
+        <EditText
+            android:id="@+id/txt_AddDish_Quantity"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_adddishes_label_price" />
+
+        <EditText
+            android:id="@+id/txt_AddDish_Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp" android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+            android:text="@string/activity_adddishes_label_uploaddish" />
+
+        <ImageView
+            android:id="@+id/btn_AddDish_UploadImage"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:onClick="processUploadDishImage"
+            android:src="@drawable/uploadimg" android:layout_marginStart="30dp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_AddDish_DishImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_adddishes_label_orderbydate" />
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_adddishes_label_deliverydate" />
+
+        <CalendarView
+            android:id="@+id/calendarView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/activity_adddishes_btn_add" />
+</LinearLayout>

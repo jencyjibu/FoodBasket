@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rounded_corner">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:src="@drawable/orderfood" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_buyorsell_label_orderfood" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/activity_buyorsell_btn_orderfood" android:onClick="processOrderFood"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_rounded_corner">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:src="@drawable/sellfood" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_buyorsell_label_sellfood" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/activity_buyorsell_btn_sellfood"
+                android:onClick="processSellFood"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- <TableLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" android:layout_marginTop="30dp" android:background="@drawable/shape_rounded_corner">
+         <TableRow>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent" android:text="Hello" android:layout_column="0"/>
+             <TableLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" android:layout_column="1">
+                 <TableRow>
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content" android:text="Jency"/>
+                 </TableRow>
+                 <TableRow>
+                     <Button
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content" android:text="Button" />
+                 </TableRow>
+             </TableLayout>
+
+         </TableRow>
+
+     </TableLayout>
+ -->
+</LinearLayout>

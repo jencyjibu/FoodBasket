@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Food Basket</string>
+
+    <string name="joinfoodbasket_slide_1_title">Share and Care</string>
+    <string name="joinfoodbasket_slide_1_desc">Share your amazing delicacies with your neighbours</string>
+
+    <string name="joinfoodbasket_slide_2_title">Income</string>
+    <string name="joinfoodbasket_slide_2_desc">Earn by making more</string>
+
+    <string name="joinfoodbasket_slide_3_title">Quality Food</string>
+    <string name="joinfoodbasket_slide_3_desc">Enjoy delicious home cooked food</string>
+
+    <string name="joinfoodbasket_slide_4_title">Save Time</string>
+    <string name="joinfoodbasket_slide_4_desc">Spare your cooking time to something productive</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Join</string>
+
+    <string name="activity_joinfoodbasket_heading">Food basket connects people in the neighbourhood through food!</string>
+    <string name="activity_joinfoodbasket_subheading">Passionate in cooking? Looking for home cooked food? Then FoodBasket is a perfect platform for you.</string>
+    <string name="activity_joinfoodbasket_label_feature1">Share your amazing delicacies with your neighbours</string>
+    <string name="activity_joinfoodbasket_label_feature2">Earn by making more</string>
+    <string name="activity_joinfoodbasket_label_feature3">Enjoy delicious home cooked food</string>
+    <string name="activity_joinfoodbasket_label_feature4">Save Time</string>
+    <string name="activity_joinfoodbasket_btn_join">Join Food Basket</string>
+
+    <string name="activity_registration_mandatory">Please fill all the mandatory fields</string>
+    <string name="activity_registration_personaldetails">Personal Details</string>
+    <string name="activity_personaldetails_label_fullname">Full Name</string>
+    <string name="activity_personaldetails_label_email">Email</string>
+    <string name="activity_personaldetails_label_password">Password</string>
+    <string name="activity_personaldetails_btn_proceed">Proceed</string>
+
+    <string name="activity_registration_addressdetails">Address Details</string>
+    <string name="activity_addressdetails_label_housename">House Name</string>
+    <string name="activity_addressdetails_label_doorno">Door No</string>
+    <string name="activity_addressdetails_label_street">Street</string>
+    <string name="activity_addressdetails_label_landmark">Landmark</string>
+    <string name="activity_addressdetails_label_locality">Locality</string>
+    <string name="activity_addressdetails_label_city">City</string>
+    <string name="activity_addressdetails_label_pincode">PIN Code</string>
+    <string name="activity_addressdetails_btn_register">Register</string>
+
+    <string name="activity_buyorsell_label_orderfood">Get tasty and quality home cooked food from your neighbour</string>
+    <string name="activity_buyorsell_btn_orderfood">Order Food</string>
+    <string name="activity_buyorsell_label_sellfood">Share your amazing delicacies with your neighbour</string>
+    <string name="activity_buyorsell_btn_sellfood">Sell Food</string>
+
+    <string name="activity_adddishes">Add dishes to basket</string>
+    <string name="activity_adddishes_label_dishname">DIsh Name</string>
+    <string name="activity_adddishes_label_description">Description</string>
+    <string name="activity_adddishes_label_quantity">Quantity</string>
+    <string name="activity_adddishes_label_price">Price(per item)</string>
+    <string name="activity_adddishes_label_orderbydate">Order By</string>
+    <string name="activity_adddishes_label_deliverydate">Delivery Date</string>
+    <string name="activity_adddishes_label_uploaddish">Upload the image of your dish</string>
+    <string name="activity_adddishes_btn_add">Add</string>
+
+    <string name="activity_dishdetails_label_filterby">Filter By</string>
+    <string name="activity_dishdetails_label_deliverydate">Delivery Date</string>
+    <string name="activity_dishdetails_label_location">Location</string>
+    <string name="layout_dishdetails_label_orderby">Order By</string>
+    <string name="layout_dishdetails_label_quantity">Quantity</string>
+    <string name="layout_dishdetails_label_quantityleft">more left</string>
+    <string name="layout_dishdetails_label_addtocart">Add To Cart +</string>
+    <string name="layout_dishdetails_label_readyby">Will be ready by</string>
+    <string name="layout_dishdetails_label_seller">By</string>
+    <string name="layout_dishdetails_label_priceperitem">per item</string>
+</resources>

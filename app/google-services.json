@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "503015843374",
+    "firebase_url": "https://fcm-test-e0528.firebaseio.com",
+    "project_id": "fcm-test-e0528",
+    "storage_bucket": "fcm-test-e0528.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503015843374:android:1295744b59459b2fc0e1bf",
+        "android_client_info": {
+          "package_name": "com.example.foodbasket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503015843374-456f4vbm86nrhuetlm45fkdrdp60m1kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfvs7r0NtfxVvHSXToEPZhLZQLzTivOGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503015843374-456f4vbm86nrhuetlm45fkdrdp60m1kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

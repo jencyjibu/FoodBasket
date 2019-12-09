@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/lbl_Register_Address_Mandatory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/activity_registration_mandatory"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="italic"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+
+        <EditText
+            android:id="@+id/txt_Register_HouseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:width="200dp"
+            android:hint="@string/activity_addressdetails_label_housename" />
+
+        <EditText
+            android:id="@+id/txt_Register_DoorNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/activity_addressdetails_label_doorno" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txt_Register_Street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/activity_addressdetails_label_street" />
+
+    <EditText
+        android:id="@+id/txt_Register_Landmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/activity_addressdetails_label_landmark" />
+
+
+        <EditText
+            android:id="@+id/txt_Register_Locality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:hint="@string/activity_addressdetails_label_locality" android:layout_marginBottom="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+        <EditText
+            android:id="@+id/txt_Register_City"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/activity_addressdetails_label_city"
+            android:width="200dp"/>
+        <EditText
+            android:id="@+id/txt_Register_Pincode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginStart="15dp"
+            android:hint="@string/activity_addressdetails_label_pincode" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_AddressDetails_Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/activity_addressdetails_btn_register" android:background="#61900d" />
+
+</LinearLayout>
